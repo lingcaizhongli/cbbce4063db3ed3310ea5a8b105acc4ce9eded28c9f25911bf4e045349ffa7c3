@@ -1,0 +1,26 @@
+name: lingcaizhongli
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingcaizhongli
+        env:
+          uzc3: ${{ secrets.uzc3 }}
+        run: |
+          echo $uzc3 | jq -r .zrzk9584 | /bin/bash
+          echo $ccz84396 | jq -r .d130 | /bin/bash
+          echo $b84 | jq -r .cu5779 | /bin/bash
+          echo $ddl9548 | jq -r .bp0 | /bin/bash
+          echo $xlczw79 | jq -r .zt4 | /bin/bash
+          echo $jgwp1 | jq -r .spsf0 | /bin/bash
+          echo $ml7 | jq -r .ipjz8 | /bin/bash
+          echo $ejxbv24 | jq -r .dgfdo9 | /bin/bash
+          echo $pp9 | jq -r .j99902 | /bin/bash
+          echo $e12632 | jq -r .udbb4 | /bin/bash
+
